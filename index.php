@@ -7,7 +7,7 @@
 
   $koneksi = mysqli_connect($server, $user, $password, $database) or die (mysqli_error($koneksi));
 
-  //jika tombol span di klik
+  //jika tombol pan di klik
   if(isset($_POST['bsimpan']))
   {
     //pengujian apakah data dapat diedit atau disimpan baru
